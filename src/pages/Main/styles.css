@@ -1,0 +1,73 @@
+.container{
+  background-color: #ffff;
+  width: 600px;
+  min-height: 600px;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group{
+  margin-top: 28px ;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.todo-input{
+  /* display: flex;
+  flex: 1; */
+  border: 1px solid #eae8e8;
+  outline: none;
+  padding: 8px;
+  border-radius: 6px;
+  width: 90%;
+  height: 32px;
+  margin-right: 5px;
+}
+
+.btn-add{
+  width: calc(10% - 5px);
+  height: 32px;
+  background-color: #8E4AE7;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.list-item{
+  list-style: none;
+  background-color: #F4F1F4;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.btn-component{
+  height: 32px;
+  background-color: #8E4AE7;
+  outline: none;
+  padding: 8px;
+  margin-left: 8px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button-trash{
+  background-color: #ff7b5a;
+  border: solid 50%;
+  border-radius: 4px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  width: 26px;
+}

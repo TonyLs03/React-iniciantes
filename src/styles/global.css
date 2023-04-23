@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiazed !important;
+  background: #4e92e1;
+  font-family: 'Montserrat', 'sans-serif';
+  color: #000;
+
+}
+
+button{
+  cursor: pointer;
+}
